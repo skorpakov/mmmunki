@@ -29,6 +29,8 @@ In addition, the utility has a special mode that allows you to measure the spect
 
 For the convenience of measuring color maps with small patches using a Colormunki Photo spectrophotometer, you can make a simple fixture of cardboard, two rulers and an office file film:
 
+![ColorMunki Photo DIY measuring table](https://skorpakov.github.io/images/mmmunki.jpg)
+
 ## Usage
 
     Ambient light measurement mode:  mmmunki -l <measurements file>
