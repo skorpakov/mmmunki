@@ -19,13 +19,13 @@ This utility allows you to bypass all these restrictions.
 
 Firstly, it makes it possible to measure any color charts (including multipage) generated in programs that have the ability to save reference tables in text format (Argyll CMS, Profile Maker 5, i1Profiler). The obtained measurement results are also saved in text format. This allows you to use these programs to build profiles of printing devices based on this data.
 
-Secondly, the utility allows using patches of substantially smaller size in color charts without loss of accuracy. The minimum patch size is approximately 11x12 mm, which allows you to place up to 546 patches on an A4 sheet. This is achieved through the ability to measure each strip many times. Then the values that best match certain criteria are selected for each patch.
+Secondly, the utility allows using patches of substantially smaller size in color charts without loss of accuracy. The minimum patch size is approximately 11x12 mm, which allows you to place up to 546 patches on an A4 sheet. This is achieved through the ability to measure each strip many times. Then the values that best match [certain criteria](#about-selecting-the-best-measurement) are selected for each patch.
 
 Thirdly, in order to avoid buffer overflow, the utility allows you to break a strip with patches into fragments and read one fragment per pass. Then the data for each fragment are combined into a strip.
 
 All of this allows to significantly reducing the consumption of expensive paper and ink without loss of measurement accuracy.
 
-In addition, the utility has a special mode that allows you to measure the spectrum and color temperature of light sources with recording data to a file. The obtained data can be used, for example, in an online calculator to calculate the actual color rendition index (CRI) of the light source.
+In addition, the utility has a special mode that allows you to measure the spectrum and color temperature of light sources with recording data to a file. The obtained data can be used, for example, in an [online calculator](https://cielab.xyz/spectralcalc_en.php) to calculate the actual color rendition index (CRI) of the light source.
 
 For the convenience of measuring color maps with small patches using a Colormunki Photo spectrophotometer, you can make a simple fixture of cardboard, two rulers and an office file film:
 
@@ -72,7 +72,7 @@ If you need to take a break in the middle of measurements, you can save the curr
     
 Measure light source spectrum and color temperature and save data to light.txt file.
     mmmunki -l light.txt
-Now you can analyze it in Spectral calculator: https://cielab.xyz/spectralcalc_en.php. To calculate CRI paste data to text area, open “Additional features and advanced settings” and press “IES-TM-30-15, CRI and CQS” button.
+Now you can analyze it in [Spectral calculator](https://cielab.xyz/spectralcalc_en.php). To calculate CRI paste data to text area, open “Additional features and advanced settings” and press “IES-TM-30-15, CRI and CQS” button.
 
 ## Sample profiling routine using Argyll CMS
 
