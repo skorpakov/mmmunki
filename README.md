@@ -34,6 +34,7 @@ For the convenience of measuring color maps with small patches using a Colormunk
 ## Usage
 
     Ambient light measurement mode:  mmmunki -l <measurements file>
+    
     Color chart measurement mode:  mmmunki [options] <reference file> <measurements file>
         <reference file> - input reference chart file
         <measurements file> - output measurements file name (without extension)
@@ -48,7 +49,7 @@ For the convenience of measuring color maps with small patches using a Colormunk
           -A<N> - automatically advance to next strip after N measurements (default: 1)
           -D<RGB|CMYK> - save measurements data values in RGB|CMYK format (only supported for 
               ProfileMaker 5 file format)
-          -E<76|94|2000> - set delta E calculation method to CIE76|CIE94|CIEDE2000 (default: CIE76)
+          -E<76|94|2000> - set delta E calculation method to CIE76|CIE94|CIEDE2000 (default: CIE2000)
 
 ## Examples
 
