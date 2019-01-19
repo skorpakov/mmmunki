@@ -73,7 +73,9 @@ If you need to take a break in the middle of measurements, you can save the curr
     mmmunki -TI3 -Mtemp.ti3 target.ti2 result
     
 Measure light source spectrum and color temperature and save data to light.txt file.
+
     mmmunki -l light.txt
+    
 Now you can analyze it in [Spectral calculator](https://cielab.xyz/spectralcalc_en.php). To calculate CRI paste data to text area, open “Additional features and advanced settings” and press “IES-TM-30-15, CRI and CQS” button.
 
 ## Sample profiling routine using Argyll CMS
